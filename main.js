@@ -1,1 +1,2 @@
-console.log("Hello from sub_branch_1!");
+console.log("Hello from main!");
+console.log("!Resolved conflict from sub_branch_1!")
