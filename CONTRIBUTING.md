@@ -76,16 +76,30 @@ Push your branch to `main` regularly, so that other members can see your changes
 
 ### PR Process
 
-After pushing the branch to remote repo, to merge seperate branch back to `main`, Create a **Pull Request (PR)**
+After pushing the branch to remote repo, to merge seperate branch back to `main`, Create a **Pull Request (PR)**.
 
 #### Create PR
 1. Navigate to `Pull requests` and select `New pull request`
 2. Select `base:main <- compare:branch`
 3. If therer is no conflict, you should be able to `Create pull request`
 4. Write your branch title (branch topic) and details for clarification and `Create pull request`
-5. Pull request must be reviewed and `approved` by at least `2` members, in order to merge into `main`
+5. Pull request must be reviewed and `approved` by at least `1` members, in order to merge into `main`
     * `Merge pull request` : All commits from this branch will be added to main branch (for branch with short commits and no conflicts commit)
     * `Squash and merge` : All commits from this branch will be combined into one commit into the main branch (for branch with long commits or conflicts commit)
         * Rewrite new commit message for all commits (add description if needed)
+6. `Confirm` your PR after being approved to merge branch to `main`
 
 #### Review PR
+1. Navigate to `Pull requests` and select open pull request
+2. Select `Files changed`
+3. Review and Check changes. 
+    * Leaves comment if there is/are any notice by pointing at that line of code and click the `+` sign
+    * Add Suggestion ![alt text](image.png) to suggest a commit to the code
+4. After finish reviewing changes, select `Review Changes`
+    * If the code **needs correction or changes**, select `Request changes`
+    and write your suggestion
+    * If the code **has no issues**, select `Approve` (put `LGTM` (Looks Good To Me) in the comment for confirming your approval (optional))
+5. `Submit review` to approve merging
+
+#### Cleaning Branch
+After PR successfully merged, select `Delete branch` to clean branch history
