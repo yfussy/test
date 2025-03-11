@@ -32,7 +32,7 @@ Keep your local repo stay in sync with remote repo whenever you make changes rel
 #### Pull the Latest `main` Branch
 <pre>git pull origin main </pre>
 
-### Creating new Branch
+### Branch
 
 Create new branch to work on a specific task (e.g. new feature, bug fix)
 
@@ -56,7 +56,7 @@ While working on a branch, pull main (merge) to your branch so it is in sync wit
 #### Merge Conflicts
 Merge Conflict can occur on both **merging** and **pulling**. When there are changes that `main` and `branch` doesn't match and git doesn't know which line to keep, it throws a **Merge Conflict**
 
-##### How to resolve
+##### <ins>How to resolve</ins>
 * check on file(s) that conflicts
 <pre><<<<<<< HEAD
 //Your changes (current branch)
